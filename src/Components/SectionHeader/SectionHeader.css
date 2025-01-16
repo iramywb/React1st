@@ -1,0 +1,7 @@
+.rightLine {
+    @apply after:content-[""] after:block after:w-[100px] after:h-1 after:absolute after:left-full after:top-1/2 after:-translate-y-1/2;
+}
+
+.leftLine {
+    @apply before:content-[""] before:block before:w-[100px] before:h-1 before:absolute before:right-full before:top-1/2 before:-translate-y-1/2;
+}
