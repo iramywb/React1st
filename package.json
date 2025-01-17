@@ -1,6 +1,6 @@
 {
   "homepage": "http://iramywb.github.io/React1st",
-  "name": "start-framework",
+  "name": "React1st",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run dist",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

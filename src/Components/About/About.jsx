@@ -2,7 +2,7 @@ import SectionHeader from '../SectionHeader/SectionHeader'
 
 export default function About() {
   return (
-    <div className='bg-[#1ABC9C] mt-[104px]'>
+    <div className='bg-[#1ABC9C] mt-[72px] pt-8'>
       <div className="container mx-auto text-white text-center p-32 min-h-[calc(100vh-412px)]">
         <div className='text-center'>
           <SectionHeader title="about component" />
